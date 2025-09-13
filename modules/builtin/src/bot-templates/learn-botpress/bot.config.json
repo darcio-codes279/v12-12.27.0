@@ -6,7 +6,12 @@
   "author": "Botpress, Inc.",
   "license": "AGPL-3.0",
   "imports": {
-    "modules": [],
+    "modules": [
+          {
+      "location": "MODULES_ROOT/botpress-module",
+      "enabled": true
+    }
+    ],
     "incomingMiddleware": [],
     "outgoingMiddleware": []
   },
